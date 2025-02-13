@@ -1,5 +1,8 @@
 
 
+The repository for [Persona-DB: Efficient Large Language Model Personalization for Response Prediction with Collaborative Data Refinement](https://arxiv.org/abs/2402.11060) (COLING 2025).
+
+
 ## Environments
 - Ubuntu-18.0.4
 - Python (3.7)
