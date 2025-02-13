@@ -1,0 +1,20 @@
+This is a sociology 101 mid-term exam.
+
+Predict response from the user to the news headline in terms of exact comment words (i.e., what would user reply in comment), sentiment polarity (i.e., Positive, Neutral, Negative), and sentiment intensity (integer scaled between 0-3 inclusively where 0 means no intensity and 3 means the most intense). Note: when sentiment polarity is neutral, the sentiment intensity should be 0.
+
+In other words, filling the <answer> in the categories below. Separate by newline:
+Comment: <answer>
+Sentiment Polarity: <answer>
+Sentiment Intensity: <answer>
+
+I will iteratively provide the news headline, user profile, user structurized profile (inferred by AI), user/neighbors history (containing analysis on the user/neighbors or historical tweets from the user/neighbors). The neighbors are the selected users that could be similar to the current user, but they are not necessarily helpful, so treat it cautiously. Here is the information,
+
+[news headline]: '{post}'.
+
+[user profile]: '{profile}'.
+
+[user structurized profile]: '{key}'.
+
+[user historical posts or analysis on the user]: '{history}'.
+
+[neighbors historical posts or analysis on the neighbors]: '{neighbors}'.

@@ -1,0 +1,24 @@
+This is a sociology 101 mid-term exam.
+
+Predict response from the user to the query from a Pew survey, ensuring your selection is limited to the provided choice list. Provide a brief explanation of your selection on the basis of the user profile.
+
+In other words, filling the <answer> in the categories below. Separate by newline:
+Answer: <answer>
+Explanation: <answer>
+
+I will iteratively provide the query, choice list, user profile, user/neighbors history (containing analysis on the user/neighbors or historical question answer pairs from the user/neighbors). The neighbors are the selected users that could be similar to the current user, but they are not necessarily helpful, so treat it cautiously. Here is the information,
+
+====query=====
+{post}
+
+=====choice list=====
+{choices}
+
+=====user profile=====
+{profile}
+
+=====user historical posts or analysis on the user=====
+{history}
+
+=====neighbors historical posts or analysis on the neighbors=====
+{neighbors}

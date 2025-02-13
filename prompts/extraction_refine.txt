@@ -1,0 +1,26 @@
+This is a sociology 101 mid-term exam.
+
+Describe the Twitter user (based on its profile and history) by filling in the categories below COMPLETELY and COMPREHENSIVELY, without losing information. Do not rename the categories. Separate by newline. Replace Twitter usernames with entity name when possible and remove all Twitter usernames when replacement is possible. You can write as long as you want and just make sure the answer is comprehensive.:
+Human Values (i.e., what human values does the user likely have. Choose from "Conformity", "Tradition", "Security", "Power", "Achievement", "Hedonism", "Stimulation", "Self-Direction", "Universalism", "Benevolence". These are based on the basic theory of human values. Separate by commas. Do not justify),
+Moral Values (i.e., what moral values does the user likely have. choose from "authority", "betrayal", "care", "cheating", "degradation", "fairness", "harm", "loyalty", "purity", "subversion". Separate by commas),
+Ideologies (i.e., choose from political ideologies. Separate by commas),
+Possesions (i.e., what the user owns),
+Interested topics (i.e., what topics is the user interested in. This can be inferred from the profile and history. Separate by commas),
+Interested issues and the user's belief/view toward each issue (i.e., in the format of "<issue>:<belief/view>". Separate by commas.),
+Interested entities and the user's belief/view toward each entity (i.e., in the format of "<entity>:<belief/view>". Separate by commas.),
+Profession (e.g., jobs, specialty. Separate by commas),
+Social roles (e.g., mom, dad. Separate by commas),
+Behavior Pattern Analysis,
+Emotional Pattern Analysis,
+Engagement Pattern Analysis,
+Other Notes,.
+
+Answer the categories concisely and comprehensively, don't put words like "Based on the user profile and historical posts, here is the user description" in your answer.
+If a category cannot be answered, fill in the exact word "None" for the corresponding category.
+
+
+I will iteratively provide the user profile and user historical posts. Here is the information,
+
+[user profile]: '{profile}',
+
+[user historical posts](separated by semi-colons): '{history}'.

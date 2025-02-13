@@ -1,0 +1,24 @@
+Convert the following in [real txt] into JSON dict string. You only need to output the JSON dict string. Do not modify the original content.
+
+Ignore the listing symbol like "- " , "1.", "1)", etc.
+
+The content under keys related to "interested issues" or "interested entities" in [real txt] may appear to be stuffed into one line (separated by semi-column). In this case treat this line as containing separate information.
+
+The keys contain a subset of the ["human value","moral value","ideology","interested topic","social role", "behavior pattern",  "engagement pattern",  "emotional pattern", "analysis" , "other note","possession", "interested issues and the user's belief","interested entities and the user's belief"] and their lexical variation. This means only output the keys that appeared in [real txt].
+
+Below is the schema for the dict mapping:
+===Start of schema===
+<key containing "analysis", "high-level analysis" , "pattern", or "other note" in the name>: <a String of paragraph>
+<key containing "human value" , "moral value", "ideology", "interested topic", "social role", "possession" in the name>: <a List of Strings>
+<key containing "interested issues and the user's belief" or "interested entities and the user's belief" in the name>: <a List of Strings>
+===End of schema===
+
+Remove all key-value pairs in the output JSON dict for which the value has no information available. Examples include an empty list like "[]", None, or null.
+
+Only answer the following:
+<JSON dict string>
+
+
+[real txt]
+
+'{input}'

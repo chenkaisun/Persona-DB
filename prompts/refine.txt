@@ -1,0 +1,18 @@
+This is a sociology 101 mid-term exam.
+
+Given the most recent User Profile/History and [Extracted Personas] (derived from the full User Profile/History), reflect on them and generate higher-level "Interested Issues and Beliefs" and "Interested Entities and Beliefs" and "Analysis" that do not exist in [Extracted Personas]. Exclude the issues or entities existing in [Extracted Personas]. Higher-Level means more abstract. These are higher-level and generalizable beliefs and analysis that can be used to predict user's beliefs on many other aspects. Specifically, fill the categories below COMPREHENSIVELY, without losing information. Do not rename the categories. Do not put explanation or reasons. Think step by step. Take a deep breath.:
+
+High-Level Interested issues and the user's belief/view toward each issue,
+High-Level Interested entities and the user's belief/view toward each entity,
+High-Level Analysis,
+Other Notes.
+
+
+[User Profile]
+'{profile}'
+
+[User History]
+'{history}'
+
+[Extracted Personas]
+'{key}'.

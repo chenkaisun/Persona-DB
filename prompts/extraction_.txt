@@ -1,0 +1,22 @@
+This is a sociology 101 mid-term exam.
+
+Summarize the user profile and history by filling in the categories below (using as few words as possible) but completely and comprehensively, without losing information. Do not rename the categories. Separate by newline:
+Human Values (i.e., what human values does the user have. Choose from "Conformity", "Tradition", "Security", "Power", "Achievement", "Hedonism", "Stimulation", "Self-Direction", "Universalism", "Benevolence". These are based on the basic theory of human values. Otherwise simply choose "None" if not sure. Separate by commas),
+Moral Values (i.e., what moral values does the user have. choose from "authority", "betrayal", "care", "cheating", "degradation", "fairness", "harm", "loyalty", "purity", "subversion". Otherwise simply choose "None" if not sure. Separate by commas),
+Ideologies (i.e., choose from political ideologies, or None if you cannot answer. Separate by commas),
+Possesions (i.e., what the user owns. Choose None if you cannot answer),
+Interested topics (i.e., Separate by commas),
+Interested issues (or events) and the user's stance toward each issue (i.e., fill the template exactly "Support: <issues> ; Neutral: <issues> ; Against: <issues>". Fill <issues> with "None" if you are not sure for that label),
+Interested entities and the user's stance toward each entity (i.e., fill the template exactly "Support: <entities> ; Neutral: <entities> ; Against: <entities>". Fill <entities> with "None" if you are not sure for that label),
+Profession (e.g., jobs, specialty. Separate by commas),
+Social roles (e.g., mom, dad. Separate by commas),
+Other Notes.
+
+Answer the categories exactly, don't put words like "Based on the user profile and historical posts, here is the user description" in your answer.
+If a category cannot be answered, fill in the exact word "None" for the corresponding category.
+
+I will iteratively provide the user profile and user historical posts. Here is the information,
+
+user profile: '{profile}',
+
+user historical posts: '{history}'.
